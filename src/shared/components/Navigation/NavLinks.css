@@ -20,14 +20,18 @@
     color: #000000;
     text-decoration: none;
     padding: 0.5rem;
+    transition: 1.0s;
   }
   
   .nav-links a:hover,
   .nav-links a:active,
   .nav-links a.active {
     background: #ffffff;
-    border-bottom: 1px solid;
+    border-bottom: 0.5px solid;
     color: #000000;
+    transition: 1.0s;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
   }
   
   .nav-links button {
@@ -37,6 +41,7 @@
     background: transparent;
     padding: 0.5rem;
     font: inherit;
+    transition: 1.0s;
   }
   
   .nav-links button:focus {
@@ -73,5 +78,5 @@
     .nav-links button:active {
       background: #ffffff;
       color: #292929;
-    }
+      }
   }

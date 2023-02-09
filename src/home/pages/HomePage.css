@@ -1,3 +1,41 @@
 .home-description__title {
     font-family: 'Trispace', sans-serif;
 }
+
+.home-description__title:first-of-type {
+    padding-top: 8rem;
+}
+
+.home-description__content {
+    width: 300px;
+    margin: 2rem 0;
+}
+
+.homepage-article-slide__title {
+    font-family: 'Trispace', sans-serif;
+}
+
+.home button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1.5px solid #000000;
+    color: #000000;
+    background: transparent;
+    padding: 0.5rem;
+    width: 200px;
+    transition: 0.5s;
+}
+
+
+.home button:focus {
+    outline: none;
+  }
+  
+  .home button:hover,
+  .home button:active {
+    border: none;
+    border-bottom: 1.5px solid #000000;
+    letter-spacing: 0.1rem;
+    transition: 0.5s;
+  }
