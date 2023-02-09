@@ -5,6 +5,9 @@ import './NavLinks.css';
 const NavLinks = props => {
     return <ul className="nav-links">
         <li>
+            <NavLink to='/home' exact>Home</NavLink>
+        </li>
+        <li>
             <NavLink to='/' exact>All Users</NavLink>
         </li>
         <li>
