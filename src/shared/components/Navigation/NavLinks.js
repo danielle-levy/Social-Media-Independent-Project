@@ -5,16 +5,19 @@ import './NavLinks.css';
 const NavLinks = props => {
     return <ul className="nav-links">
         <li>
-            <NavLink to='/' exact>ALL USERS</NavLink>
+            <NavLink to='/home' exact>Home</NavLink>
         </li>
         <li>
-            <NavLink to='/u1/places'>MY PLACES</NavLink>
+            <NavLink to='/' exact>All Users</NavLink>
         </li>
         <li>
-            <NavLink to='/places/new'>ADD PLACE</NavLink>
+            <NavLink to='/u1/places'>My Places</NavLink>
         </li>
         <li>
-            <NavLink to='/auth'>AUTHENTICATE</NavLink>
+            <NavLink to='/places/new'>Add Place</NavLink>
+        </li>
+        <li>
+            <NavLink to='/auth'>Authenticate</NavLink>
         </li>
     </ul>
 };
