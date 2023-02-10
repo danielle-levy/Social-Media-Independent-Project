@@ -1,5 +1,11 @@
+.home-intro {
+    width: 50%;
+    float: left;
+}
+
 .home-description__title {
     font-family: 'Trispace', sans-serif;
+    margin: 0.5rem 0;
 }
 
 .home-description__title:first-of-type {
@@ -11,8 +17,9 @@
     margin: 2rem 0;
 }
 
-.homepage-article-slide__title {
-    font-family: 'Trispace', sans-serif;
+.homepage-article {
+    width: 50%;
+    float: left;
 }
 
 .home button {
