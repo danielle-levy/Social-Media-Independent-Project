@@ -1,6 +1,11 @@
+.home {
+    display: flex;
+    align-items: center;
+    /* height: 100vh; */
+}
+
 .home-intro {
     width: 50%;
-    float: left;
 }
 
 .home-description__title {
@@ -15,11 +20,6 @@
 .home-description__content {
     width: 300px;
     margin: 2rem 0;
-}
-
-.homepage-article {
-    width: 50%;
-    float: left;
 }
 
 .home button {
@@ -37,12 +37,12 @@
 
 .home button:focus {
     outline: none;
-  }
-  
-  .home button:hover,
-  .home button:active {
+}
+
+.home button:hover,
+.home button:active {
     border: none;
     border-bottom: 1.5px solid #000000;
     letter-spacing: 0.1rem;
     transition: 0.5s;
-  }
+}

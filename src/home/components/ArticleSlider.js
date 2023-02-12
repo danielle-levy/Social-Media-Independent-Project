@@ -6,7 +6,7 @@ import './ArticleSlider.css';
 const ArticleSlider = props => {
     let { articles } = props;
 
-    return <article className="ArticleSlider-article">
+    return <article className="article-slider">
         {articles.map(article => {
             return <Article
                 id={article.id}
