@@ -6,7 +6,9 @@ import "@fortawesome/fontawesome-free/css/all.css";
 const Article = props => {
     const { title, image, author, likeCount } = props;
     return <div className="article">
-        <img src={image} alt={title} />
+        <div class="image-container">
+            <img src={image} alt={title} />
+        </div>
         <h4 className="article-slide__title">{title}</h4>
         <div className="article-details">
             <div className="article-author">article by @{author}</div>
